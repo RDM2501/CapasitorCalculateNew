@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+
+    <EditText
+        android:id="@+id/edit_C1"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:hint="@string/enter_value_C1_base"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_margin="8dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/button_confirm_C1"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="@string/press_to_confirm_C1"
+        android:layout_margin="8dp"
+        android:onClick="confirm_C1"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/edit_C1" />
+
+    <EditText
+        android:id="@+id/edit_C2"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:minHeight="48dp"
+        android:hint="@string/enter_value_C2_see"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_margin="8dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/button_confirm_C1" />
+
+    <Button
+        android:id="@+id/button_confirm_C2"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="@string/press_to_confirm_C2"
+        android:layout_margin="8dp"
+        android:onClick="confirm_C2"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/edit_C2" />
+
+    <TextView
+        android:id="@+id/textViewResult_C3"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:hint="@string/result_C3"
+        android:layout_margin="8dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/button_confirm_C2" />
+
+    <TextView
+        android:id="@+id/textView_Adder"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:hint="@string/adder"
+        android:layout_margin="8dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textViewResult_C3" />
+
+    <Button
+        android:id="@+id/button_calculate_C3"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="@string/calculate_C3"
+        android:layout_margin="8dp"
+        android:onClick="calculate_C3"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView_Adder" />
+
+    <TextView
+        android:id="@+id/textView_Log"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_margin="8dp"
+        android:background="#CDDC39"
+        android:fontFamily="sans-serif-black"
+        android:text="@string/log"
+        android:textColor="#2196F3"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/button_calculate_C3" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

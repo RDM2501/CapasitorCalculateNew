@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">CapasitorCalculate</string>
+    <string name="enter_value_C1_base">Введите значение С1 (опорное)</string>
+    <string name="enter_value_C2_see">Введите значение С2 на MY-65</string>
+    <string name="press_to_confirm_C1">Принять С1</string>
+    <string name="press_to_confirm_C2">Принять С2</string>
+    <string name="result_C3">Результат С3</string>
+    <string name="adder">Дополнительно</string>
+    <string name="calculate_C3">Рассчитать С3</string>
+    <string name="smile">Смайл</string>
+    <string name="clear_Log">Очистить лог</string>
+    <string name="log">Лог</string>
+    </resources>
