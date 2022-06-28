@@ -21,23 +21,17 @@ private float edit_C2;
 private float Res_C3;
 private String res_C3;
 private ImageView imageview;
-
-
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
         adder = findViewById(R.id.textView_Adder);
-
       /*  int c1 =
         adder.setText(C1);
 
 
         adder.setText(C2);*/
-
-
     }
-
     public void confirm_C1(View view) {
         editing_C1 = findViewById(R.id.edit_C1);
 
@@ -65,8 +59,6 @@ private ImageView imageview;
      log = findViewById(R.id.textView_Log);
      log.setText(res_C3+" мкФ");
 
-
-
           /*  int positon = log.getText(result_C3);*/
             /*String description = getDescriptionByPosition(positon);
             textViewDescriprionTemp.setText(description);
@@ -76,18 +68,6 @@ private ImageView imageview;
             String[] descriptions = getDescriptionByPosition(R.id.textViewResult_C3);
             return descriptions[position];
         }*/
-
-
-
-
-
-
-
-
-
-
-
-
 
         /*float  i = 3.46f;
         String str = Float.toString(i);
